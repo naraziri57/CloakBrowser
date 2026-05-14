@@ -91,6 +91,8 @@ with CloakBrowser(fingerprint=fp) as browser:
 
 > **Personal note:** I usually run with `headless=False` while developing so I can actually see what's happening — makes debugging a lot easier. Flip it back to `True` for any unattended runs.
 
+> **Personal note:** If you're testing fingerprint spoofing, [https://coveryourtracks.eff.org](https://coveryourtracks.eff.org) and [https://browserleaks.com](https://browserleaks.com) are both really handy for a quick sanity check. I tend to hit both before trusting a new fingerprint config.
+
 ## Development
 
 ```bash
@@ -106,10 +108,4 @@ ruff check .
 
 ## Contributing
 
-Pull requests are welcome! Please open an issue first to discuss major changes.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
+Pull requests are welcome! Please open an issue first to discuss 
