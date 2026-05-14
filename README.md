@@ -84,8 +84,10 @@ with CloakBrowser(fingerprint=fp) as browser:
 | `headless` | `bool` | `True` | Run browser in headless mode |
 | `proxy` | `ProxyConfig` | `None` | Proxy configuration |
 | `fingerprint` | `FingerprintConfig` | random | Browser fingerprint settings |
-| `timeout` | `int` | `30000` | Default navigation timeout (ms) |
+| `timeout` | `int` | `60000` | Default navigation timeout (ms) |
 | `stealth` | `bool` | `True` | Enable stealth mode patches |
+
+> **Personal note:** I bumped the default `timeout` from 30000 to 60000 ms because I kept hitting timeouts on slower connections. Adjust down if you're on a fast network.
 
 ## Development
 
