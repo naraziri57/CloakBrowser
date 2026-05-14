@@ -89,6 +89,8 @@ with CloakBrowser(fingerprint=fp) as browser:
 
 > **Personal note:** I bumped the default `timeout` from 30000 to 60000 ms because I kept hitting timeouts on slower connections. Adjust down if you're on a fast network.
 
+> **Personal note:** I usually run with `headless=False` while developing so I can actually see what's happening — makes debugging a lot easier. Flip it back to `True` for any unattended runs.
+
 ## Development
 
 ```bash
