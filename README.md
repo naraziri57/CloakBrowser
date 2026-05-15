@@ -91,4 +91,4 @@ with CloakBrowser(fingerprint=fp) as browser:
 
 > **Personal note:** I usually run with `headless=False` while developing so I can actually see what's happening — makes debugging a lot easier. Flip it back to `True` for any unattended runs.
 
-> **Personal note:** If you're testing fingerprint spoofing, [https://coveryourtracks.eff.org](https://coveryourtracks.eff.org) and [https://browserleaks.com](https://browserleaks.com) are both really handy. I've also had good results with [https://bot.sannysoft.com](https://bot.sannysoft.com) — it gives a quick visual breakdown of which stealth patches are working and which aren't.
+> **Personal note:** If you're testing fingerprint spoofing, [https://coveryourtracks.eff.org](https://coveryourtracks.eff.org) and [https://browserleaks.com](https://browserleaks.com) are both really handy. I've also been using [https://pixelscan.net](https://pixelscan.net) lately — it catches a few things the others miss, especially around canvas noise and WebGL renderer strings.
